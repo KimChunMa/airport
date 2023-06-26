@@ -242,7 +242,7 @@ public class Rfront {
 			}
 		}
 	}
-
+ 
 	// 날짜 입력
 	public String dateSelect() throws Exception {
 		System.out.println("\t\t\t\t\t==============================================날짜선택==============================================");

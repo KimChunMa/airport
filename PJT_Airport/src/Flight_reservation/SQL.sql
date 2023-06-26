@@ -6,7 +6,7 @@ drop table if exists airline;
 create table airline(
 	lno int auto_increment primary key,
     lname varchar(20) not null
-);
+); 
 
 drop table if exists airplane;
 CREATE TABLE airplane (

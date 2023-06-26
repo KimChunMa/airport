@@ -241,7 +241,7 @@ public class Front {
 				System.out.println(e);
 				scanner = new Scanner(System.in);
 			}
-		}
+		} 
 	}
 	
 	

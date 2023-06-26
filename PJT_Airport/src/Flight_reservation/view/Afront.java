@@ -9,7 +9,7 @@ import Flight_reservation.model.Airport;
 import Flight_reservation.model.Reservation;
 
 public class Afront {
-	private static Afront admin = new Afront();
+	private static Afront admin = new Afront(); 
 	private Afront() {};
 	public static Afront getInstance() {return admin;}
 	
