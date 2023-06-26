@@ -251,15 +251,16 @@ public class Rfront {
 		System.out.print("\t\t\t\t\t 출발 날짜를 입력해 주세요[입력예시 : 2023-03-07] : ");
 		String dtime = scanner.next();
 		System.out.println("\t\t\t\t\t-------------------------------------------------------------------------------------------------");
+		return dtime;
 		
-		if (Rcontroller.getInstance().dateSelect(dtime)) {
-			return dtime;
-		}else{
-			System.out.println("\t\t\t\t\t-------------------------------------------------------------------------------------------------");
-			System.out.println("\t\t\t\t\t 잘못 입력하셨습니다.");
-			System.out.println("\t\t\t\t\t-------------------------------------------------------------------------------------------------");
-			return null;
-		}
+		/*
+		 * if (Rcontroller.getInstance().dateSelect(dtime)) { return dtime; }else{
+		 * System.out.println(
+		 * "\t\t\t\t\t-------------------------------------------------------------------------------------------------"
+		 * ); System.out.println("\t\t\t\t\t 잘못 입력하셨습니다."); System.out.println(
+		 * "\t\t\t\t\t-------------------------------------------------------------------------------------------------"
+		 * ); return null; }
+		 */
 	}
 
 	// 인원수 입력
